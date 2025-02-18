@@ -1,0 +1,1 @@
+export { TerraformOutputCard } from './TerraformOutputCard';
