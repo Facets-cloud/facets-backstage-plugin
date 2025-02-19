@@ -11,7 +11,7 @@ This plugin requires the `@facets-cloud/backstage-plugin-backend`, which connect
 Install the frontend and backend plugins using `yarn`:
 
 ```bash
-yarn workspace app add @facets-cloud/backstage-plugin-backend
+yarn workspace backend add @facets-cloud/backstage-plugin-backend
 yarn workspace app add @facets-cloud/backstage-plugin
 ```
 
@@ -73,7 +73,7 @@ import { SettingsPage } from '@facets-cloud/backstage-plugin';
 ### Viewing the Settings Page
 Click the “Settings” button on the bottom left of the screen and then click the “Facets.cloud” tab. Enter your credentials from the Facets Control Plane and click “Save.” These credentials will be used for making API calls to the Facets Control Plane.
 
-![Settings Page](./screenshots/settings.png)
+![Settings Page](https://raw.githubusercontent.com/Facets-cloud/facets-backstage-plugin/main/backstage-plugins/plugins/facets-cloud/screenshots/settings.png)
 
 ## Facets components for entities
 
@@ -93,7 +93,7 @@ metadata:
 
 This component provides an overview of all environments currently deployed in Facets for a particular resource.
 
-![Environment Overview](./screenshots/env-overview.png)
+![Environment Overview](https://raw.githubusercontent.com/Facets-cloud/facets-backstage-plugin/main/backstage-plugins/plugins/facets-cloud/screenshots/env-overview.png)
 
 To add this card to the entity’s overview, use the following code:
 
@@ -116,7 +116,7 @@ const overviewContent = (
 This component displays the release history of a resource in a selected environment. You can also trigger a new release by clicking the “Release Now” button.
 
 
-![Release History](./screenshots/release-history.png)
+![Release History](https://raw.githubusercontent.com/Facets-cloud/facets-backstage-plugin/main/backstage-plugins/plugins/facets-cloud/screenshots/release-history.png)
 
 To add this card to the entity’s overview, use the following code:
 
@@ -139,7 +139,7 @@ const overviewContent = (
 This component provides an overview of all Terraform outputs for environments currently deployed in Facets for a particular resource.
 
 
-![Environment Overview](./screenshots/terraform-outputs.png)
+![Environment Overview](https://raw.githubusercontent.com/Facets-cloud/facets-backstage-plugin/main/backstage-plugins/plugins/facets-cloud/screenshots/terraform-outputs.png)
 
 To add this card to the entity’s overview, use the following code:
 

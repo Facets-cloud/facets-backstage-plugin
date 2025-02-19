@@ -58,10 +58,10 @@ export const TerraformOutputCard = () => {
   >();
 
   // TODO: Toggle password field using these
-  const [showInterfacePassword, setShowInterfacePassword] = useState(false);
-  const [showAttributePassword, setShowAttributePassword] = useState(false);
+  const [showInterfacePassword, _setShowInterfacePassword] = useState(false);
+  const [showAttributePassword, _setShowAttributePassword] = useState(false);
   // TODO: This comes from Facets user permissions
-  const [hasPasswordViewPermission, setHasPasswordViewPermission] =
+  const [hasPasswordViewPermission, _setHasPasswordViewPermission] =
     useState(false);
   const [interfaceInstances, setInterfaceInstances] =
     useState<{ label: string; value: string }[]>();
