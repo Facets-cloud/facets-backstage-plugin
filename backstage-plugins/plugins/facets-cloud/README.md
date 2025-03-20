@@ -93,7 +93,7 @@ metadata:
 
 This component provides an overview of all environments currently deployed in Facets for a particular resource.
 
-![Environment Overview](https://raw.githubusercontent.com/Facets-cloud/facets-backstage-plugin/main/backstage-plugins/plugins/facets-cloud/screenshots/env-overview.png)
+![Environment Overview](https://raw.githubusercontent.com/Facets-cloud/facets-backstage-plugin/main/backstage-plugins/plugins/facets-cloud/screenshots/environment-overview.png)
 
 To add this card to the entity’s overview, use the following code:
 

@@ -27,7 +27,7 @@ The following components are available for use on the entity page in Backstage.
 
 This component provides an overview of all environments currently deployed in Facets for a particular resource.
 
-![Environment Overview](./backstage-plugins/plugins/facets-cloud/screenshots/env-overview.png)
+![Environment Overview](./backstage-plugins/plugins/facets-cloud/screenshots/environment-overview.png)
 
 ### Release History
 
